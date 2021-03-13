@@ -1,0 +1,65 @@
+html{
+	background-color: #EBECF0;
+}
+
+html,#start{
+	font-family: "等线";
+	color: #004974;
+	text-shadow: 0.0625rem 0.0625rem 0 #FFF;
+}
+
+#main{
+	margin: 0 auto;
+}
+
+#title{
+	font-size: 4rem;
+	font-weight: 600;
+}
+
+#start{
+	font-size: 2rem;
+	font-weight: 600;
+	
+	width: 30rem;
+	height: 4rem;
+	border-radius: 0.625rem;
+	border: 0rem;
+	background-color: #EBECF0;
+	outline: none;
+	cursor: pointer;
+	
+	transition: all 0.2s ease-in-out;
+	
+	box-shadow: -0.3125rem -0.3125rem 1.25rem #FFF, 0.3125rem 0.3125rem 1.25rem #BABECC;
+}
+
+#start:hover{
+	box-shadow: -0.125rem -0.125rem 0.3125rem #FFF, 0.125rem 0.125rem 0.3125rem #BABECC;
+}
+
+#start:active {
+	box-shadow: inset 0.0625rem 0.0625rem 0.125rem #BABECC, inset -0.0625rem -0.0625rem 0.125rem #FFF;
+}
+
+#footer{
+	clear: both;
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	color: #66ccff;
+}
+
+a:active{
+	color: #ffffff;
+}
