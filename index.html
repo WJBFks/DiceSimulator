@@ -8,6 +8,35 @@
 		<script src="./js/script.js" type="text/javascript" charset="utf-8"></script>
 	</head>
 	<body>
+		<table id="set" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td>最大点数</td>
+				<td>
+					<input id="MaxPointInput" type="range" min="1" max="6" value="6" onchange="change()"/>
+				</td>
+				<td>
+					<label id="MaxPointLabel">6</label>
+				</td>
+			</tr>
+			<tr>
+				<td>刷新速度</td>
+				<td>
+					<input id="RefreshRateInput" type="range" min="1" max="50" value="10" onchange="change()"/>
+				</td>
+				<td>
+					<label id="RefreshRateLabel">10</label>
+				</td>
+			</tr>
+			<tr>
+				<td>刷新次数</td>
+				<td>
+					<input id="RefreshNumberInput" type="range" min="1" max="50" value="10" onchange="change()"/>
+				</td>
+				<td>
+					<label id="RefreshNumberLabel">10</label>
+				</td>
+			</tr>
+		</table>
 		<table id="main" border="0" cellspacing="0" cellpadding="0">
 			<tr style="text-align: center;">
 				<td>

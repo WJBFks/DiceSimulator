@@ -1,26 +1,31 @@
-html{
+html {
 	background-color: #EBECF0;
 }
 
-html,#start{
+body {
+	margin: 0;
+}
+
+html,
+#start {
 	font-family: "等线";
 	color: #004974;
 	text-shadow: 0.0625rem 0.0625rem 0 #FFF;
 }
 
-#main{
+#main {
 	margin: 0 auto;
 }
 
-#title{
+#title {
 	font-size: 4rem;
 	font-weight: 600;
 }
 
-#start{
+#start {
 	font-size: 2rem;
 	font-weight: 600;
-	
+
 	width: 30rem;
 	height: 4rem;
 	border-radius: 0.625rem;
@@ -28,13 +33,13 @@ html,#start{
 	background-color: #EBECF0;
 	outline: none;
 	cursor: pointer;
-	
+
 	transition: all 0.2s ease-in-out;
-	
+
 	box-shadow: -0.3125rem -0.3125rem 1.25rem #FFF, 0.3125rem 0.3125rem 1.25rem #BABECC;
 }
 
-#start:hover{
+#start:hover {
 	box-shadow: -0.125rem -0.125rem 0.3125rem #FFF, 0.125rem 0.125rem 0.3125rem #BABECC;
 }
 
@@ -42,7 +47,7 @@ html,#start{
 	box-shadow: inset 0.0625rem 0.0625rem 0.125rem #BABECC, inset -0.0625rem -0.0625rem 0.125rem #FFF;
 }
 
-#footer{
+#footer {
 	clear: both;
 	display: block;
 	text-align: center;
@@ -52,14 +57,23 @@ html,#start{
 	width: 100%;
 }
 
-a{
+a {
 	text-decoration: none;
 }
 
-a:hover{
+a:hover {
 	color: #66ccff;
 }
 
-a:active{
+a:active {
 	color: #ffffff;
+}
+
+#set {
+	position: fixed;
+	border-radius: 0 0 1rem 0;
+	padding: 1rem;
+	margin: 0;
+	background-color: #EBECF0;
+	box-shadow: 0.3125rem 0.3125rem 1.25rem #BABECC;
 }
